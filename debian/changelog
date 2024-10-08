@@ -1,5 +1,23 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-manifoldco-promptui (0.9.0-1) unstable; urgency=medium
 
-  * Initial release
+  * Team upload.
+  * New upstream version 0.9.0
+  * Reorder fields in debian/control and debian/copyright
+  * Bump debhelper build-dependency to debhelper-compat (= 13)"
+  * Use dh-sequence-golang instead of dh-golang and --with=golang
+  * Remove dependency on golang-github-juju-ansiterm-dev as per upstream
+  * Bump Standards-Version to 4.6.2 (no change)
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Anthony Fok <foka@debian.org>  Tue, 11 Jul 2023 00:40:36 -0600
+
+golang-github-manifoldco-promptui (0.8.0-2) unstable; urgency=medium
+
+  * no change rebuild
+
+ -- Reinhard Tartler <siretart@tauware.de>  Thu, 10 Dec 2020 12:43:29 -0500
+
+golang-github-manifoldco-promptui (0.8.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #975599)
+
+ -- Reinhard Tartler <siretart@tauware.de>  Mon, 23 Nov 2020 18:00:10 -0500
